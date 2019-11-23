@@ -1,7 +1,9 @@
 /* CSS for personal webpage */
 /* Oliver Haimson */
 
-.main_image img {height: 220px; width: 200px;}
+.main_image img {
+  height: 220px; width: 200px;
+}
 
 nav ul{
   list-style-type: none;}
