@@ -40,6 +40,10 @@ nav li {
   font-weight: bold;
 }
 
+footer ul {
+  list-style-type: none;
+}
+
 footer li {
   font-weight: bold;
   text-decoration: none;
