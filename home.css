@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.main_about{
+    display:grid;
+    grid-template-columns: 5vw 20vw 60vw 5vw;
+    grid-template-rows: auto;
+    margin-top: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    padding-top: 30px;
+  }
+  .main_image img{
+    max-width: 20vw;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid black;
+  }
