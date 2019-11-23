@@ -47,6 +47,11 @@ nav a, footer a {
   text-decoration: none;
 }
 
+footer li {
+  display: inline;
+  font-size: 12px;
+}
+
 nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   text-decoration: underline;
   color: #ff0000;
