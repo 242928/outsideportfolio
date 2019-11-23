@@ -1,25 +1,40 @@
-.students-body body {
+.students-body {
+  width: 90%;
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: 1fr auto auto auto 1fr;
+  margin: auto;
 }
 
-.students-header header {
+.students-header {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
 
-.students-nav nav {
+.students-nav {
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
 }
 
-#students-content main {
+#students-content {
   grid-column: 2 / span 1;
   grid-row: 4 / span 1;
 }
 
-.students-footer footer {
+.students-footer {
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
+}
+.students-text {
+  padding: 20px;
+}
+
+.student-profile {
+  padding: 20px;
+}
+
+.student-profile img {
+  height: 150px;
+  width: 150px;
 }
