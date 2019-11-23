@@ -7,6 +7,14 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+}
+
 img {
   height: 200px; width: 200px;
 }
@@ -15,12 +23,15 @@ nav ul{
   list-style-type: none;
 }
 
-nav li{text-align: right;
+nav li {
+  text-align: right;
   padding-right: 20px;
   margin-bottom: 10px;
   min-width: 175px;
   text-decoration: none;
-  margin-top: 20px;}
+  margin-top: 20px;
+  font-weight: bold;
+}
 
 nav a {
   color: black;
@@ -30,6 +41,7 @@ nav a {
 
 nav a:hover, nav a:focus {
   text-decoration: underline;
+  color: #ff0000;
 }
 
 .skip a{
