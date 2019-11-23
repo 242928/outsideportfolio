@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  padding-bottom: 20px;
+}
+
 nav {
   border-bottom: 1px solid #d5d5d5;
   padding-bottom: 10px;
@@ -38,6 +42,13 @@ nav li, footer li {
   text-decoration: none;
   margin-top: 20px;
   font-weight: bold;
+  display: inline;
+  font-size: 12px;
+}
+
+nav li {
+  font-size: 15px;
+  padding-right: 35px;
 }
 
 
@@ -45,11 +56,6 @@ nav a, footer a {
   color: black;
   font-weight: bold;
   text-decoration: none;
-}
-
-footer li {
-  display: inline;
-  font-size: 12px;
 }
 
 nav a:hover, nav a:focus, footer a:hover, footer a:focus {
