@@ -1,0 +1,14 @@
+.SMRL_image{width: 150px;}
+.SRG_image{width:100px;}
+.digitalstudies_image{width:285px;}
+.ESC_image{width:285px;}
+.socialmedia_image{width:285px;}
+
+.about_container{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    grid-row-gap: 150px;
+    grid-template-rows: auto auto auto auto;
+    width: 100vw;
+}
+
