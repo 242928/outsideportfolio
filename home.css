@@ -4,16 +4,25 @@ html{
 
 .main_about{
     display:grid;
-    grid-template-columns: 5vw 20vw 60vw 5vw;
+    grid-template-columns: 10vw 20vw 60vw 10vw;
     grid-template-rows: auto;
     margin-top: 10px;
     grid-row-gap: 10px;
     justify-items: center;
     padding-top: 30px;
   }
+
   .main_image img{
     max-width: 20vw;
     height: auto;
     object-fit: contain;
     border: 2px solid black;
+  }
+  .main_image{
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+  }
+  #name_si{
+    grid-column: 3/span 1;
+    grid-row: 1/span 1;
   }
