@@ -15,7 +15,8 @@
 }
 
 .about_nav{grid-column: 3 / span 1;
-    grid-row: 1 / span 1;}
+    grid-row: 1 / span 1;
+    padding: 20px;}
 
 .about_body header{grid-column: 1/span 1;
 grid-row: 1/span 1;
@@ -39,5 +40,11 @@ padding-left: 200px;}
 grid-column: 1/-1;
 text-align: center;}
 
+/* make nav have padding between links
+    make h1 in top-left corner
+    put about to top-left a little more
+    want about text to span all columns and have some padding on left / right side
+    put space between text paragraphs
+    organize groups on second half of page */
 
 
