@@ -64,6 +64,10 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   color: #ff0000;
 }
 
+.selected a {
+  color: blue;
+}
+
 .skip a{
   background: white;
   left: 0;
