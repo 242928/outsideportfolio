@@ -1,50 +1,45 @@
 
-
-.SMRL_image{height: 130px;width: 150px;}
-.SRG_image{height: 100px;width:100px;}
-.digitalstudies_image{height: 40px;width:285px;}
-.ESC_image{height:40px;width:285px;}
-.socialmedia_image{height:40px;width:285px;}
-
 .about_body{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 70px;
-    grid-template-rows: auto auto auto auto;
-    width: 100vw;
-}
+        width: 90%;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 1fr auto auto auto 1fr;
+        margin: auto;
+      }
 
-.about_nav{grid-column: 3 / span 1;
-    grid-row: 1 / span 1;
-    padding: 20px;}
+.about-header{grid-column: 2/span 1;
+grid-row: 2/span 1;
+font-size: 25px;}
 
-.about_body header{grid-column: 1/span 1;
-grid-row: 1/span 1;
-padding-left: 60px; 
-font-size: 30px;
-padding-top: 50px;}
+.about_nav{grid-column: 2 / span 1;
+    grid-row: 3 / span 1;}
 
-.about_header2{grid-row: 2/span 1;
-grid-column: 1/span 1;
-padding-left: 100px;}
+#about_content{grid-column: 2/span 1;
+grid-row: 4/span 1;}
 
-#about_text{grid-row: 2/span 1;
-grid-column: 1/-1;}
+p{padding-bottom: 20px;}
 
-#about_links{grid-row:3/span 1;
-grid-column: 1/-1;
-padding-top: 40px;
-padding-left: 200px;}
+.about_footer{grid-column: 2/span 1;
+grid-row: 5/span 1;}
 
-.about_footer{grid-row: 4/span 1;
-grid-column: 1/-1;
-text-align: center;}
+a{text-decoration: none;
+color: #00b8d4;}
 
-/* make nav have padding between links
-    make h1 in top-left corner
-    put about to top-left a little more
-    want about text to span all columns and have some padding on left / right side
-    put space between text paragraphs
-    organize groups on second half of page */
+h2{color:red;}
+
+a.selected{color:red;}
+
+.SMRL_image{height: 130px;width: 150px; padding-top: 20px;}
+.SRG_image{height: 100px;width:100px;padding-top: 20px; padding-bottom: 30px;}
+.digitalstudies_image{height: 40px;width:285px;padding-top: 20px;}
+.ESC_image{height:40px;width:285px;padding-top: 20px;}
+.socialmedia_image{height:40px;width:285px;padding-top: 20px;}
+
+
+/* how to make links inline 
+make sure all header fonts same size
+add red to nav when on all pages
+make all links same blue */
 
 
