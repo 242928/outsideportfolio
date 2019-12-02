@@ -41,4 +41,9 @@
   padding-bottom: 10px;
 }
 
-h2{ color: red;}
+a.selected{color: #D80000;}
+
+h2{ color: #D80000;}
+
+.students-text a{text-decoration: none;
+color: #0066cc;}
