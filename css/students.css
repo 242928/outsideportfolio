@@ -41,7 +41,8 @@
   padding-bottom: 10px;
 }
 
-a.selected{color: #D80000;}
+a.selected{color: #D80000;
+text-decoration: none;}
 
 h2{ color: #D80000;}
 
