@@ -10,11 +10,6 @@ body {
     display: block;
 }
 
-footer {
-    border-top: 1px solid #d5d5d5;
-    padding-top: 20px;
-}
-
 .work-content {
     font-size: 100px;
     padding-left: 100px;
@@ -25,14 +20,12 @@ footer {
     grid-gap: 10px;
     grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
     grid-template-rows: [row] auto [row] auto [row] auto;
-    background-color: #fff;
-    color: #444;
     justify-content: center;
 }   
 
 .box {
-    background-color: #444;
-    color: #fff;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     padding: 20px;
     font-size: 20px;
@@ -44,6 +37,7 @@ footer {
 }
 
 .b {
+    margin-top: 20px;
     grid-column: col 2 / span 4 ;
     grid-row: row ;
 }
@@ -52,8 +46,10 @@ footer {
     grid-column: col ;
     grid-row: row 2 ;
 }
+
 .d {
-    grid-column: col 2 / span 3 ;
+    margin-top: 10px;
+    grid-column: col 2 / span 4 ;
     grid-row: row 2 ;
 }
 
@@ -61,7 +57,9 @@ footer {
     grid-column: col ;
     grid-row: row 3;
 }
+
 .f {
+    margin-top: 40px;
     grid-column: col 2 / span 4;
     grid-row: row 3;
 }
@@ -72,7 +70,7 @@ footer {
     overflow: hidden;
 }
 
-.container2 {
+.publications {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 50px;
@@ -141,6 +139,7 @@ footer {
         grid-column: col 1 / span 2;
         grid-row: row 2 ;
     }
+
     .d {
         grid-column: col 3 / span 4 ;
         grid-row: row 2 ;
@@ -150,6 +149,7 @@ footer {
         grid-column: col 1 / span 2;
         grid-row: row 3;
     }
+
     .f {
         grid-column: col 3 / span 4;
         grid-row: row 3;
@@ -161,19 +161,15 @@ footer {
         overflow: hidden;
     }
 
-    .container2 {
+    .publications {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-top: 50px;
         padding-left: 100px;
         padding-right: 100px;
     }
 
     .box2 {
-        height: 205px;
-        width: 280px;
-        padding: 12px 12px 18px 12px;
-        background-color: #323232;
+        margin-left: 100px;
+        background-color: white;
         margin-right: 20px;
         margin-bottom: 20px;
         position: static;
