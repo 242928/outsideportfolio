@@ -7,8 +7,6 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/workstyle.css">
-    
-
     <title>Work</title>
   </head>
   
@@ -24,20 +22,74 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="work.html" class="selected">Work</a></li>
+        <li><a href="work.html">Work</a></li>
         <li><a href="students.html">Students</a></li>
       </ul>
     </nav>
-    <body>
+    <body class = "work-body">
     <main class="work-content">
       <h2>Work</h2>
     </main>
+    <style>
+      .flip-card {
+        background-color: transparent;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        /* perspective: 1000px; Remove this if you don't want the 3D effect */
+      }
+  
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+  
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+  
+      /* Position the front and back side */
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+  
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+  
+      /* Style the back side */
+      .flip-card-back {
+        background-color: white;
+        color: black;
+        transform: rotateY(180deg);
+      }
+    </style>
     <div class="container">
-      <div class = "box">
-        <img src="images/lifetransitions.png" style="width: 200px">
-        <p>Social technologies and major life transitions / events</p>
+      <div class = "box a">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class = "flip-card-front">
+              <img src="images/lifetransitions.png" style="width: 180px">
+            </div>
+            <div class= "flip-card-back">
+              <br><br><br>
+              <p>Social technologies and major life transitions / events</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class = "box">
+      <div class = "box b">
         <p>Each person faces many transitions throughout their life as they develop, age, and change. 
           Yet people often find it difficult to manage where and how to present and discuss life transitions and changing identities on social media sites, and to find communities of similar others. 
           These difficulties are often amplified for those with marginalized or stigmatized identities (e.g., transgender and other LGBQ people, first generation and low-income college students). 
@@ -45,11 +97,20 @@
           We seek to explain how people fragment their identities and networks among separate social media sites during major life transitions, and the social inequities that exist for people with marginalized identities, particularly those with multiple intersecting marginalized identities, during major life transitions (among other outcomes).
         </p>
       </div>
-      <div class = "box">
-        <img src="images/transSNS2.png" style="width: 200px">
-        <p>Gender transition and social media</p>
+      <div class = "box c">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class = "flip-card-front">
+              <img src="images/transSNS2.png" style="width: 180px">
+            </div>
+            <div class = "flip-card-back">
+              <br><br><br>
+              <p>Gender transition and social media</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class = "box">
+      <div class = "box d">
         <p>Social computing technologies, such as social media sites, often privilege people who fit within expected and unchanging categories. 
           Thus, designing technology and social media flexible enough to allow for representation of complex identities that emerge as people embark on major life transitions, such as changing gender, is a particular challenge. 
           Because little is known about how transgender people navigate gender transition on social media, this work seeks to understand challenges and opportunities related to this experience. 
@@ -57,94 +118,30 @@
           but can also inform technology design that will benefit people who struggle with navigating a wide range of major identity changes online.
         </p>
       </div>
-      <div class = "box">
-        <img src="images/onlinespacessensitivepopulations.png" style="width: 200px">
-        <p>Online spaces and sensitive populations</p>
+      <div class = "box e">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class = "flip-card-front">
+              <img src="images/onlinespacessensitivepopulations.png" style="width: 180px">
+            </div>
+            <div class = "flip-card-back">
+              <br><br><br>
+              <p>Online spaces and sensitive populations</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class = "box">
+      <div class = "box f">
         <p>Online spaces can be important platforms for people from sensitive, stigmatized, and vulnerable populations to discuss their problems and find support; yet platform design decisions impact how people present themselves and interact with others. 
           By studying these groups' online self-presentation and disclosure practices, along with the politics of social media platform design, 
           we can understand how to design technology to better support those facing difficult issues like sexual abuse, relationship breakups, eating disorders, depression, and gender presentation.
         </p>  
       </div>
     </div>
-    <div class = "container2">
-      <div class = "column">
-        <h3>Publications</h3>
-      </div>
-      <div class = "column">
-        Search Bar
-      </div>
-      <div id="myBtnContainer">
-          <button class="btn active" onclick="filterSelection('all')"> Show All</button>
-          <button class="btn" onclick="filterSelection('Research1')"> Research 1</button>
-          <button class="btn" onclick="filterSelection('Research2')"> Research 2</button>
-          <button class="btn" onclick="filterSelection('Research3')"> Research 3</button>
-      </div>
-      <div class="container3">
-          <div class="filterDiv Research1"> </div>
-          <div class="filterDiv colors fruits">Orange</div>
-          <div class="filterDiv cars">Volvo</div>
-          <div class="filterDiv colors">Red</div>
-          <div class="filterDiv cars animals">Mustang</div>
-          <div class="filterDiv colors">Blue</div>
-          <div class="filterDiv animals">Cat</div>
-          <div class="filterDiv animals">Dog</div>
-          <div class="filterDiv fruits">Melon</div>
-          <div class="filterDiv fruits animals">Kiwi</div>
-          <div class="filterDiv fruits">Banana</div>
-          <div class="filterDiv fruits">Lemon</div>
-          <div class="filterDiv animals">Cow</div>
-        </div>
-      <script>
-        filterSelection("all")
-        function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("filterDiv");
-          if (c == "all") c = "";
-          // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-          for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-          }
-        }
-
-        // Show filtered elements
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-          }
-        }
-
-        // Hide elements that are not selected
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);
-            }
-          }
-          element.className = arr1.join(" ");
-        }       
-
-        // Add active class to the current control button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-           this.className += " active";
-          });
-        }
-      </script>
-        
-      <div class = "box2" style="width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;>
+    <div class = "publications">
+        <h2>Publications</h2>
+    </div>
+    <div class = "box2" style="width:1000px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;>
           <table><tr><td valign="top"><a href="https://www.tandfonline.com/doi/full/10.1080/14680777.2019.1678505" target=_blank"><img src="images/FMS.png" style="width:50px; margin-right:10px; margin-top:4px;"/></a></td><td valign="top">
               <b>Tumblr was a Trans Technology: The Meaning, Importance, History, and Future of Trans Technologies</b><br>
               <u>Oliver L. Haimson</u>, Avery Dame-Griff, Elias Capello, Zahari Richter<br>
@@ -697,7 +694,6 @@
               [<a href="http://fusion.net/story/55057/new-facebook-feature-gender-options/" target="_blank">link</a>]
             
             <br><br>
-      </div>
     </div>
     </body> 
     <footer>
