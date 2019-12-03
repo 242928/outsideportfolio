@@ -1,6 +1,6 @@
 /*CSS for Work Page 
  */
- 
+
 @media screen and (min-width: 800px) { 
     .box {
         background-color: white;
@@ -15,7 +15,7 @@
         padding-left: 100px;
     }
 
-    .container {
+    .workcontainer {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
@@ -65,7 +65,7 @@
         padding-right: 100px;
     }
 
-    .box2 {
+    .publicationbox {
         width: 1000px;
         height: 400px;
         margin-left: 120px;
@@ -83,7 +83,7 @@
         /* justify-content: center; */
     }
     
-    .box2 img {
+    .pulbicationbox img {
         max-height: 100px;
         max-width: 100px;
     }
