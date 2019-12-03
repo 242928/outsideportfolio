@@ -10,7 +10,7 @@
 
 .about-header{grid-column: 2/span 1;
 grid-row: 2/span 1;
-font-size: 25px;}
+}
 
 .about_nav{grid-column: 2 / span 1;
     grid-row: 3 / span 1;}
@@ -38,9 +38,7 @@ text-decoration: none;}
 .socialmedia_image{height:40px;width:285px;padding-top: 20px;}
 
 
-/* how to make links inline 
+/* how to make links inline
 make sure all header fonts same size
 add red to nav when on all pages
 make all links same blue */
-
-
