@@ -131,7 +131,7 @@ html {
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 0.8fr auto auto auto 1fr;
+  grid-template-rows: 0.6fr auto auto auto 1fr;
   margin: auto;
 }
 .home-header{
@@ -296,7 +296,7 @@ html {
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr auto 1fr;
-        grid-template-rows: 0.8fr auto auto auto 1fr;
+        grid-template-rows: 0.6fr auto auto auto 1fr;
         margin: auto;
       }
 
@@ -382,7 +382,7 @@ make all links same blue */
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 0.8fr auto auto auto 1fr;
+    grid-template-rows: 0.6fr auto auto auto 1fr;
     margin: auto;
 }
 
@@ -473,7 +473,7 @@ make all links same blue */
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 0.8fr auto auto auto 1fr;
+  grid-template-rows: 0.6fr auto auto auto 1fr;
   margin: auto;
 }
 
