@@ -45,7 +45,7 @@ nav li, footer li {
   margin-top: 20px;
   font-weight: bold;
   display: inline;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 
@@ -61,19 +61,23 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   padding-bottom: 25px;
-  font-family: 'Cantarell', sans-serif;
 }
 
 h2 {
  color: #D80000;
- font-size: 23px;
+ font-size: 30px;
 }
 
 h3 {
   color: #002a78;
-  font-size: 18px;
+  font-size: 25px;
+}
+
+h4 {
+  padding-bottom: 10px;
+  font-size: 20px;
 }
 
 p {
@@ -203,6 +207,12 @@ html {
   .prof-title {
     font-size: 15px;
   }
+
+  #name-si h2 {
+    color: black;
+    font-size: 22px;
+  }
+
   #name-si{
     grid-column: 3/span 1;
     grid-row: 2/span 1;
@@ -407,5 +417,102 @@ make all links same blue */
   padding-bottom: 10px;
 }
 
+.phd-students {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dan-student-profile {
+  grid-column: 1 / span 1;
+  padding: 25px;
+}
+
+.hayden-student-profile {
+  grid-column: 2 / span 1;
+  padding: 25px;
+}
+
+.masters-students {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.taika-student-profile {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  padding: 25px;
+}
+
+.justin-student-profile {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  padding: 25px;
+}
+
+.dykee-student-profile {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  padding: 25px;
+}
+
+.denny-student-profile {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  padding: 25px;
+}
+
+.undergrad-students {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.aj-student-profile {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  padding: 25px;
+}
+
+.shanley-student-profile {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  padding: 25px;
+}
+
+.jasmine-student-profile {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  padding: 25px;
+}
+
+.sharol-student-profile {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  padding: 25px;
+}
+
+.lingbo-student-profile {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  padding: 25px;
+}
+
+.zu-student-profile {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  padding: 25px;
+}
+
+.brookelyn-student-profile {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+  padding: 25px;
+}
+
 .students-text a{text-decoration: none;
 color: #0066cc;}
+
+.students-text {
+  padding-bottom: 60px;
+}
