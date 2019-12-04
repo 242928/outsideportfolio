@@ -12,7 +12,7 @@ color: #0066cc;}
 
 header {
   padding-bottom: 20px;
-  font-size: 175%;
+  font-size: 40px;
 }
 
 nav {
@@ -68,7 +68,10 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   color: #2033ab;
 }
 
-h2{ color: #D80000;}
+h2 {
+  color: #D80000;
+  font-size: 25px;
+}
 
 .selected {
   color: blue;
