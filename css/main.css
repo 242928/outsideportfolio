@@ -62,7 +62,7 @@ nav a, footer a {
 
 nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   text-decoration: underline;
-  color: #184e78;
+  color: #002a78;
 }
 
 h2{ color: #D80000;}
