@@ -186,6 +186,10 @@ html {
   object-fit: contain;
 }
 
+.social {
+  font-size: 15px;
+}
+
 
   .home-about{
       display:grid;
