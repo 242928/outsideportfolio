@@ -73,7 +73,7 @@ h2 {
   font-size: 25px;
 }
 
-h3 {
+.phd-students h3, .masters-students h3, undergrad-students h3 {
   color: #2033ab;
   font-size: 20px;
 }
