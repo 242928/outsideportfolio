@@ -7,12 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
-a{text-decoration: none;
-color: #0066cc;}
-
 header {
   padding-bottom: 20px;
-  font-size: 40px;
+  font-size: 175%;
 }
 
 nav {
@@ -48,11 +45,11 @@ nav li, footer li {
   margin-top: 20px;
   font-weight: bold;
   display: inline;
-  font-size: 15px;
-  padding-right: 20px;
+  font-size: 12px;
 }
 
 nav li {
+  font-size: 15px;
   padding-right: 35px;
 }
 
@@ -65,18 +62,10 @@ nav a, footer a {
 
 nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   text-decoration: underline;
-  color: #2033ab;
+  color: #002a78;
 }
 
-h2 {
-  color: #D80000;
-  font-size: 25px;
-}
-
-.phd-students h3, .masters-students h3, .undergrad-students h3 {
-  color: #2033ab;
-  font-size: 20px;
-}
+h2{ color: #D80000;}
 
 .selected {
   color: blue;
@@ -121,7 +110,7 @@ html{
     scroll-behavior: smooth;
 }
 .home-body{
-  width: 80%;
+  width: 90%;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -195,6 +184,43 @@ html{
   grid-row: 3/span 1;
 }
 @media only screen and (min-width: 900px) {
+  .home-about{
+      display:grid;
+      grid-template-columns: auto 260px 300px auto;
+      grid-gap: 30px;
+      grid-template-rows: auto;
+      padding-bottom: 30px;
+    }
+  .home-image{
+    grid-column: 2/span 1;
+    grid-row: 1/span 3;
+    }
+  .home-image img{
+    width:259px;
+    height:auto;
+    object-fit: contain;
+  }
+  #name-si{
+    grid-column: 3/span 1;
+    grid-row: 2/span 1;
+    font-size: 20px;
+    margin-top: auto;
+  }
+  #si-logo{
+    grid-column: 3/span 1;
+    grid-row: 1/ span 1;
+  }
+  #contact{
+    grid-column: 3/ span 1;
+    grid-row: 3/span 1;
+    font-size: 12px;
+    margin-bottom: auto;
+  }
+  #contact img{
+    width: 22px;
+    height: auto;
+    object-fit: contain;
+  }
 .recent-news{
   display:grid;
   grid-template-columns: 1fr auto auto 1fr;
@@ -236,16 +262,14 @@ html{
   grid-column: 3/ span 1;
   grid-row: 4/ span 1;
   justify-content: space-between;
-
 }
 .third-news-pic{
   grid-column: 2 / span 2;
   grid-row: 4 / span 1;
 }
 
-
 .about_body{
-        width: 80%;
+        width: 90%;
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr auto 1fr;
@@ -267,9 +291,14 @@ grid-row: 4/span 1;}
 
 .about_links a{padding: 20px;}
 
+.reading_list{padding: 20px;}
+
 
 .about_footer{grid-column: 2/span 1;
 grid-row: 5/span 1;}
+
+a{text-decoration: none;
+color: #0066cc;}
 
 a.selected{color: #D80000;
 text-decoration: none;}
@@ -279,8 +308,6 @@ text-decoration: none;}
 .digitalstudies_image{height: 40px;width:285px;padding-top: 20px;}
 .ESC_image{height:40px;width:285px;padding-top: 20px;}
 .socialmedia_image{height:40px;width:285px;padding-top: 20px;}
-  
-  .reading_list{padding: 20px;}
 
 
 /* how to make links inline
@@ -290,7 +317,7 @@ make all links same blue */
 
 
 .students-body {
-  width: 80%;
+  width: 90%;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
