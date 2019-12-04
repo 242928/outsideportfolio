@@ -7,6 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
+a{text-decoration: none;
+color: #0066cc;}
+
 header {
   padding-bottom: 20px;
   font-size: 175%;
@@ -62,7 +65,7 @@ nav a, footer a {
 
 nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   text-decoration: underline;
-  color: #002a78;
+  color: #2033ab;
 }
 
 h2{ color: #D80000;}
@@ -231,7 +234,7 @@ html{
   grid-column: 2 / span 2;
   grid-row: 4 / span 1;
 }
-  
+
 
 .about_body{
         width: 90%;
@@ -261,9 +264,6 @@ grid-row: 4/span 1;}
 
 .about_footer{grid-column: 2/span 1;
 grid-row: 5/span 1;}
-
-a{text-decoration: none;
-color: #0066cc;}
 
 a.selected{color: #D80000;
 text-decoration: none;}
