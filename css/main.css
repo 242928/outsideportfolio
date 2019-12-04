@@ -163,24 +163,24 @@ html {
   grid-column: 1/span 2;
   grid-row: 1/span 2;
   }
-#name-si{
+.name-si{
   grid-column: 1/span 2;
   grid-row: 3/span 1;
 }
-#si-logo img{
+.si-logo img{
   width:259px;
   height: auto;
   object-fit: contain;
 }
-#si-logo{
+.si-logo{
   grid-column: 5/span 2;
   grid-row: 1/ span 1;
 }
-#contact{
+.contact{
   grid-column: 5/ span 4;
   grid-row: 2/span 1;
 }
-#contact img{
+.contact img{
   width: 22px;
   height: auto;
   object-fit: contain;
@@ -209,31 +209,32 @@ html {
   }
 
   .prof-title {
-    font-size: 15px;
+    font-size: 18px;
+    padding-top: 8px;
   }
 
-  #name-si h2 {
+  .name-si h2 {
     color: black;
-    font-size: 22px;
+    font-size: 25px;
   }
 
-  #name-si{
+  .name-si{
     grid-column: 3/span 1;
     grid-row: 2/span 1;
     font-size: 20px;
     margin-top: auto;
   }
-  #si-logo{
+  .si-logo{
     grid-column: 3/span 1;
     grid-row: 1/ span 1;
   }
-  #contact{
+  .contact{
     grid-column: 3/ span 1;
     grid-row: 3/span 1;
     font-size: 12px;
     margin-bottom: auto;
   }
-  #contact img{
+  .contact img{
     width: 22px;
     height: auto;
     object-fit: contain;
@@ -256,30 +257,37 @@ html {
     height:auto;
     object-fit: contain;
     margin-right: 10px;
+    padding: 10px;
   }
   .first-news{
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
+    padding: 20px;
   }
   .first-news-pic{
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
+    padding: 10px;
   }
   .second-news{
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
+    padding: 20px;
   }
   .second-news-pic{
     grid-column: 1 / span 1;
     grid-row: 2 /span 1;
+    padding: 10px;
   }
   .third-news{
     grid-column: 2 / span 1;
     grid-row: 3/ span 1;
+    padding: 20px;
   }
   .third-news-pic{
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
+    padding: 10px;
   }
 
 
