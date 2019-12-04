@@ -116,7 +116,7 @@ html{
     scroll-behavior: smooth;
 }
 .home-body{
-  width: 90%;
+  width: 80%;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -240,7 +240,7 @@ html{
 
 
 .about_body{
-        width: 90%;
+        width: 80%;
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr auto 1fr;
@@ -285,7 +285,7 @@ make all links same blue */
 
 
 .students-body {
-  width: 90%;
+  width: 80%;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
