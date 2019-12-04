@@ -38,7 +38,7 @@ nav ul, footer ul{
 
 nav li, footer li {
   text-align: right;
-  padding-right: 50px;
+  padding-right: 70px;
   margin-bottom: 10px;
   min-width: 175px;
   text-decoration: none;
@@ -46,7 +46,6 @@ nav li, footer li {
   font-weight: bold;
   display: inline;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -63,7 +62,7 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
 
 h1 {
   font-size: 35px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
@@ -152,7 +151,7 @@ html {
     grid-template-columns: 30vw auto auto auto auto auto;
     grid-gap: 10px;
     grid-template-rows: auto;
-    margin-top: 10px;
+    margin-top: 90px;
     padding-bottom: 10px;
   }
 .home-image{
@@ -227,6 +226,10 @@ html {
   grid-row-gap: 10px;
   margin-top: 10px;
   padding-bottom: 10px;
+  }
+
+  .news-section {
+    padding-top: 70px;
   }
 
   .recent-news img{
@@ -338,6 +341,10 @@ make all links same blue */
 
 .work-text {
     padding: 20px;
+}
+
+.research-areas {
+  padding-bottom: 20px;
 }
 
 .publicationbox {
