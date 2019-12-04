@@ -65,7 +65,10 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
   color: #002a78;
 }
 
-h2{ color: #D80000;}
+h2 { 
+ color: #D80000;
+ size: 20px;
+}
 
 .selected {
   color: blue;
