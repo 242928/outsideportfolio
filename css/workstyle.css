@@ -2,59 +2,37 @@
  */
 
 @media screen and (min-width: 800px) {
-    .box {
-        background-color: white;
-        color: black;
-        border-radius: 5px;
-        padding: 20px;
-    }
-
-    .work-content {
-        padding-left: 100px;
-    }
-
-    .workcontainer {
+    .work_body {
+        width: 90%;
+        padding: 10px;
         display: grid;
-        grid-gap: 10px;
-        grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
-        grid-template-rows: [row] auto [row] auto [row] auto;
-        background-color: #fff;
-        color: black;
-        padding-left: 100px;
-        padding-right: 100px;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 1fr auto auto auto 1fr;
+        margin: auto;
     }
 
-    .a {
-        grid-column: col 1 / span 2;
-        grid-row: row ;
+    .work-header {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
     }
 
-    .b {
-        margin: 10px;
-        grid-column: col 3 / span 4 ;
-        grid-row: row ;
+    .work-nav {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
     }
 
-    .c {
-        grid-column: col 1 / span 2;
-        grid-row: row 2 ;
+    #work-content {
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+    }
+    
+    .work-footer {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
     }
 
-    .d {
-        margin: 10px;
-        grid-column: col 3 / span 4 ;
-        grid-row: row 2 ;
-    }
-
-    .e {
-        grid-column: col 1 / span 2;
-        grid-row: row 3;
-    }
-
-    .f {
-        margin: 10px;
-        grid-column: col 3 / span 4;
-        grid-row: row 3;
+    .work-text {
+        padding: 20px;
     }
 
     .publications {
@@ -77,4 +55,3 @@
         padding-top: 10px;
     }
 }
-
