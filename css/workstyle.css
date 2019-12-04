@@ -66,7 +66,7 @@
     }
 
     .publicationbox {
-        width: 800px;
+        width: 1150px;
         height: 400px;
         margin-left: 120px;
         margin-top: 20px;
@@ -77,10 +77,5 @@
         overflow: scroll;
         padding-left: 10px;
         padding-top: 10px;
-    }
-    
-    .pulbicationbox img {
-        max-height: 100px;
-        max-width: 100px;
     }
 }
