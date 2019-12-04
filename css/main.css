@@ -300,6 +300,83 @@ text-decoration: none;}
 make sure all header fonts same size
 add red to nav when on all pages
 make all links same blue */
+@media screen and (min-width: 800px) {
+    .box {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .work-content {
+        padding-left: 100px;
+    }
+
+    .workcontainer {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
+        grid-template-rows: [row] auto [row] auto [row] auto;
+        background-color: #fff;
+        color: black;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .a {
+        grid-column: col 1 / span 2;
+        grid-row: row ;
+    }
+
+    .b {
+        margin: 10px;
+        grid-column: col 3 / span 4 ;
+        grid-row: row ;
+    }
+
+    .c {
+        grid-column: col 1 / span 2;
+        grid-row: row 2 ;
+    }
+
+    .d {
+        margin: 10px;
+        grid-column: col 3 / span 4 ;
+        grid-row: row 2 ;
+    }
+
+    .e {
+        grid-column: col 1 / span 2;
+        grid-row: row 3;
+    }
+
+    .f {
+        margin: 10px;
+        grid-column: col 3 / span 4;
+        grid-row: row 3;
+    }
+
+    .publications {
+        display: grid;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .publicationbox {
+        width: 1150px;
+        height: 400px;
+        margin-left: 120px;
+        margin-top: 20px;
+        border: 1px solid black;
+        background-color: white;
+        position: static;
+        font-size: 14px;
+        overflow: scroll;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+}
+
 
 
 .students-body {
