@@ -109,7 +109,7 @@ h2 {
   border: 2px solid black;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 .home-body{
@@ -170,22 +170,7 @@ html{
   height: auto;
   object-fit: contain;
 }
-#email{
-  grid-column: 4/span 1;
-  grid-row: 3/span 1;
-}
-#twitter{
-  grid-column: 5/ span 1;
-  grid-row: 3/span 1;
-}
-#google-scholar{
-  grid-column: 6/span 1;
-  grid-row: 3/span 1;
-}
-#linkedin{
-  grid-column: 7/span 1;
-  grid-row: 3/span 1;
-}
+
 @media only screen and (min-width: 900px) {
   .home-about{
       display:grid;
@@ -255,7 +240,6 @@ html{
 .second-news{
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
-  justify-content: space-between;
 }
 .second-news-pic{
   grid-column: 2/span 1;
@@ -264,7 +248,6 @@ html{
 .third-news{
   grid-column: 3/ span 1;
   grid-row: 4/ span 1;
-  justify-content: space-between;
 }
 .third-news-pic{
   grid-column: 2 / span 2;
