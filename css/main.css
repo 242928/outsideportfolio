@@ -249,8 +249,7 @@ html {
   }
 
   .recent-news img:hover, .recent-news img:focus, .about_links img:hover, .about_links img:focus {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    filter: opacity(0.5);
   }
 
   .news-section {
