@@ -2,7 +2,7 @@
 /* Oliver Haimson */
 
 html {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -46,6 +46,7 @@ nav li, footer li {
   font-weight: bold;
   display: inline;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -62,6 +63,7 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
 
 h1 {
   font-size: 35px;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -72,6 +74,10 @@ h2 {
 h3 {
   color: #002a78;
   font-size: 18px;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .selected {
