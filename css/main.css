@@ -73,6 +73,11 @@ h2 {
   font-size: 25px;
 }
 
+h3 {
+  color: #2033ab;
+  font-size: 20px;
+}
+
 .selected {
   color: blue;
   text-decoration: underline;
