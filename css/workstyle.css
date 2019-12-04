@@ -1,17 +1,15 @@
-/*CSS for Work Page 
+/*CSS for Work Page
  */
 
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 800px) {
     .box {
         background-color: white;
         color: black;
         border-radius: 5px;
         padding: 20px;
-        font-size: 20px;
     }
 
     .work-content {
-        font-size: 100px;
         padding-left: 100px;
     }
 
@@ -24,19 +22,19 @@
         color: black;
         padding-left: 100px;
         padding-right: 100px;
-    }   
+    }
 
     .a {
         grid-column: col 1 / span 2;
         grid-row: row ;
     }
-    
+
     .b {
         margin: 10px;
         grid-column: col 3 / span 4 ;
         grid-row: row ;
     }
-    
+
     .c {
         grid-column: col 1 / span 2;
         grid-row: row 2 ;
@@ -47,7 +45,7 @@
         grid-column: col 3 / span 4 ;
         grid-row: row 2 ;
     }
-    
+
     .e {
         grid-column: col 1 / span 2;
         grid-row: row 3;
@@ -58,7 +56,7 @@
         grid-column: col 3 / span 4;
         grid-row: row 3;
     }
-    
+
     .publications {
         display: grid;
         padding-left: 100px;
@@ -79,3 +77,4 @@
         padding-top: 10px;
     }
 }
+
