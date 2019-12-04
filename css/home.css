@@ -63,9 +63,10 @@ html{
 @media only screen and (min-width: 900px) {
   .home-about{
       display:grid;
-      grid-template-columns: 5vw 260px 300px auto auto 5vw;
+      grid-template-columns: 65px 260px 300px auto auto 5vw;
       grid-gap: 10px;
       grid-template-rows: auto;
+      padding-bottom: 30px;
     }
   .home-image{
     grid-column: 2/span 1;
@@ -79,6 +80,8 @@ html{
   #name-si{
     grid-column: 3/span 1;
     grid-row: 1/span 1;
+    margin-top: auto;
+    font-size:
   }
   #si-logo img{
     width:300px;
@@ -88,10 +91,12 @@ html{
   #si-logo{
     grid-column: 3/span 1;
     grid-row: 2/ span 1;
+    margin-top: auto;
   }
   #contact{
     grid-column: 3/ span 1;
     grid-row: 3/span 1;
+    font-size: 12px;
   }
   #contact img{
     width: 22px;
