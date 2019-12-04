@@ -66,7 +66,6 @@ nav a:hover, nav a:focus, footer a:hover, footer a:focus {
 
 h2 {
  color: #D80000;
- size: 20px;
 }
 
 .selected {
@@ -125,7 +124,7 @@ html {
 }
 .home-nav{
   grid-column: 2 / span 1;
-  grid-row: 3/ span 1;
+  grid-row: 3 / span 1;
 }
 #home-content{
   grid-column: 2 / span 1;
@@ -133,9 +132,10 @@ html {
 }
 .home-footer{
   grid-column: 2 / span 1;
-  grid-row:  -1;
+  grid-row: 5 / span 1;
 }
-.home-about{
+
+.home-about {
     display:grid;
     grid-template-columns: 30vw auto auto auto auto auto;
     grid-gap: 10px;
