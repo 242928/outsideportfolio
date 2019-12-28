@@ -48,6 +48,9 @@ nav li, footer li {
   font-size: 18px;
 }
 
+a {
+  font-family: 'Open Sans', sans-serif;
+}
 
 nav a, footer a {
   color: black;
